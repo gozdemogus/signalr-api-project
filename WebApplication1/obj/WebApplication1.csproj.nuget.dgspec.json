@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj": {}
+    "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj": {
+    "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj",
+        "projectPath": "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/WebApplication1/WebApplication1.csproj",
         "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-        "outputPath": "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/WebApplication1/obj/",
+        "outputPath": "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"

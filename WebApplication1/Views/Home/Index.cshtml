@@ -11,7 +11,7 @@
 
         $(document).ready(() => {
 
-            var connection = new signalR.HubConnectionBuilder().withAutomaticReconnect([1000, 2000, 3000, 8000]).withUrl("https://localhost:44336/MyHub").build();
+            var connection = new signalR.HubConnectionBuilder().withAutomaticReconnect([1000, 2000, 3000, 8000]).withUrl("https://localhost:5001/MyHub").build();
 
             function statusShow() {
                 $("#conStatus").text(connection.connectionState);
@@ -44,6 +44,11 @@
                 $("#loading").hide();
                 statusShow();
                 console.log(err);
+            })
+
+            //baglanmaya calısırken burası
+            connection.on("ReceiveClientCount", (ClientCount) => {
+                $("#clientCount").text(ClientCount);
             })
 
         })

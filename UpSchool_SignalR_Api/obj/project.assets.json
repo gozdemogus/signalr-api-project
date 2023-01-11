@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/UpSchool_SignalR_Api/UpSchool_SignalR_Api.csproj",
+      "projectUniqueName": "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/UpSchool_SignalR_Api/UpSchool_SignalR_Api.csproj",
       "projectName": "UpSchool_SignalR_Api",
-      "projectPath": "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/UpSchool_SignalR_Api/UpSchool_SignalR_Api.csproj",
+      "projectPath": "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/UpSchool_SignalR_Api/UpSchool_SignalR_Api.csproj",
       "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-      "outputPath": "/Users/gozdemogus/Downloads/UpSchool_SignalR_Api/UpSchool_SignalR_Api/obj/",
+      "outputPath": "/Users/gozdemogus/Desktop/UpSchool_SignalR_Api/UpSchool_SignalR_Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"
