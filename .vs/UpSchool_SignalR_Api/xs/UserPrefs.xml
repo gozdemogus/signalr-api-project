@@ -1,30 +1,16 @@
-﻿<Properties StartupConfiguration="{70C34A01-46DB-48B3-9006-371846F07603}|Default">
-  <MonoDevelop.Ide.ItemProperties.UpSchool__SignalR__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{D74EEBC5-E739-452B-AECB-9856A3F8AC84}" ItemName="UpSchool_SignalR_Api" ConfigurationId="Default" />
-        <StartupItem ItemId="{70C34A01-46DB-48B3-9006-371846F07603}" ItemName="WebApplication1" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="WebApplication1/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="WebApplication1/Views/Home/Index.cshtml" Line="14" Column="145" />
-      <File FileName="WebApplication1/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="UpSchool_SignalR_Api/Startup.cs" Line="34" Column="16" />
+      <File FileName="UpSchool_SignalR_Api/appsettings.json" Line="2" Column="56" />
+      <File FileName="UpSchool_SignalR_Api/Hubs/MyHub.cs" Line="96" Column="71" />
+      <File FileName="WebApplication1/Views/Home/Index.cshtml" Line="82" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UpSchool_SignalR_Api" expanded="True">
             <Node name="WebApplication1" expanded="True">
-              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True">
                   <Node name="Index.cshtml" selected="True" />
@@ -36,5 +22,19 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{D74EEBC5-E739-452B-AECB-9856A3F8AC84}" ItemName="UpSchool_SignalR_Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{70C34A01-46DB-48B3-9006-371846F07603}" ItemName="WebApplication1" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.UpSchool__SignalR__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
