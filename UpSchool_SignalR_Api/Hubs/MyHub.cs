@@ -60,7 +60,6 @@ namespace UpSchool_SignalR_Api.Hubs
             }
         }
 
-
         public async Task SendNameByGroup(string name, string roomName)
         {
             var room = _context.Rooms.Where(x => x.RoomName == roomName).FirstOrDefault();
@@ -84,7 +83,6 @@ namespace UpSchool_SignalR_Api.Hubs
             await Clients.Group(roomName).SendAsync("ReceiveMessageByGroup", name, room.RoomID);
         }
 
-
         public async Task GetNamesByGroup()
         {
             var rooms = _context.Rooms.Include(x => x.Users).Select(y => new
@@ -94,6 +92,18 @@ namespace UpSchool_SignalR_Api.Hubs
             });
 
             await Clients.All.SendAsync("ReceiveNamesByGroup", rooms);
+        }
+
+        public async Task AddToGroup(string roomName)
+        {
+            //groups default geliyor
+            await Groups.AddToGroupAsync(Context.ConnectionId, roomName);
+        }
+
+        public async Task RemoveToGroup(string roomName)
+        {
+            //groups default geliyor
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, roomName);
         }
     }
 }
